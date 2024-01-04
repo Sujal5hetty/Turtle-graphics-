@@ -1,0 +1,15 @@
+import turtle
+wn = turtle.Screen()
+wn.bgcolor("red")
+june = turtle.Turtle()
+
+
+for _ in range(67):
+    june.color("green")
+    june.forward(50)
+    june.right(90)
+    june.right(70)
+    june.forward(100)
+    june.forward(-40)
+    
+wn.exitonclick()
