@@ -1,0 +1,61 @@
+import turtle
+wn = turtle.Screen()
+wn.bgcolor("Blue")
+
+tess=turtle.Turtle()
+tess.pensize(60)
+tess.color("Gold")
+
+
+
+
+
+ken=turtle.Turtle()
+ken.pensize(1)
+ken.color("Silver")
+ken.shape("circle")
+
+
+tess.up()
+for i in range(4):
+    tess.stamp()
+    tess.forward(10)
+    tess.stamp()
+    tess.forward(10)
+    tess.stamp()
+    tess.forward(10)
+    tess.stamp()
+    tess.forward(10)
+    tess.stamp()
+    tess.forward(10)
+    tess.stamp()
+    tess.forward(10)
+    tess.stamp()
+    tess.forward(10)
+    tess.stamp()
+    tess.forward(10)
+    tess.stamp()
+    tess.forward(10)
+    tess.stamp()
+    tess.forward(10)
+    tess.stamp()
+    tess.left(90)
+
+tess.left(75)
+
+tess.up()
+for i in range(17):
+    tess.stamp()
+    tess.left(17)
+    tess.forward(45)
+    
+angle=69
+dist=50
+ken.up()
+for i in range(360):
+    ken.stamp()
+    ken.right(angle)
+    ken.forward(dist)
+    angle=angle+1
+    dist=dist+1
+wn.exitonclick()
