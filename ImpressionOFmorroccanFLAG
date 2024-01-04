@@ -2,7 +2,7 @@ import turtle
 wn = turtle.Screen()
 wn.bgcolor("red")
 june = turtle.Turtle()
-
+june.pensize(30)
 
 for _ in range(67):
     june.color("green")
