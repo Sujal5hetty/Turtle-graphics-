@@ -1,0 +1,123 @@
+
+import turtle
+wn=turtle.Screen()
+wn.bgcolor("gold")
+
+ben=turtle.Turtle()
+ben.pensize(10)
+ben.color("black")
+
+
+ben.up()
+ben.forward(60)
+ben.left(90)
+
+
+ben.down()
+
+ben.forward(60)
+ben.left(72)
+ben.forward(60)
+ben.left(70)
+ben.forward(60)
+ben.left(72)
+ben.forward(60)
+ben.left(72)
+ben.forward(60)
+
+
+june = turtle.Turtle()
+
+
+for _ in range(67):
+    june.color("green")
+    june.forward(50)
+    june.right(90)
+    june.right(70)
+    june.forward(100)
+    june.forward(-40)
+    
+tess=turtle.Turtle()
+tess.pensize(60)
+tess.color("brown")
+
+
+
+
+
+ken=turtle.Turtle()
+ken.pensize(1)
+ken.color("Silver")
+ken.shape("circle")
+
+
+tess.up()
+for i in range(4):
+    tess.stamp()
+    tess.forward(10)
+    tess.stamp()
+    tess.forward(10)
+    tess.stamp()
+    tess.forward(10)
+    tess.stamp()
+    tess.forward(10)
+    tess.stamp()
+    tess.forward(10)
+    tess.stamp()
+    tess.forward(10)
+    tess.stamp()
+    tess.forward(10)
+    tess.stamp()
+    tess.forward(10)
+    tess.stamp()
+    tess.forward(10)
+    tess.stamp()
+    tess.forward(10)
+    tess.stamp()
+    tess.left(90)
+
+tess.left(75)
+
+tess.up()
+for i in range(17):
+    tess.stamp()
+    tess.left(17)
+    tess.forward(45)
+    
+angle=69
+dist=50
+ken.up()
+for i in range(360):
+    ken.stamp()
+    ken.right(angle)
+    ken.forward(dist)
+    angle=angle+1
+    dist=dist+1
+
+
+elan = turtle.Turtle()
+elan.pensize(100)
+elan.color("red")
+elan.shape("circle")
+
+lan = turtle.Turtle()
+lan.pensize(100)
+lan.color("white")
+lan.shape("circle")
+
+
+
+
+
+
+for _ in range(360):
+    elan.right(1)
+    elan.forward(-1)
+    
+    
+lan.right(90)
+lan.forward(-20)
+    
+
+    
+wn.exitonclick()
