@@ -1,0 +1,648 @@
+import turtle
+wn=turtle.Screen()
+wn.bgcolor("orange")
+
+ah=turtle.Turtle()
+ah.speed(10)
+ah.color("red")
+ah.pensize(100)
+
+ah.up()
+ah.forward(-200)
+ah.left(90)
+ah.down()
+ah.forward(200)
+ah.forward(-200)
+ah.right(90)
+ah.forward(400)
+ah.right(90)
+ah.forward(200)
+ah.forward(-200)
+ah.right(90)
+ah.forward(200)
+ah.left(90)
+ah.forward(200)
+ah.right(90)
+ah.forward(200)
+ah.forward(-200)
+ah.right(90)
+ah.forward(400)
+ah.right(90)
+ah.forward(200)
+ah.forward(-200)
+ah.right(90)
+ah.forward(200)
+
+
+sm=turtle.Turtle()
+sm.color("red")
+sm.shape("circle")
+sm.pensize(100)
+sm.speed(10)
+
+sm.up()
+sm.right(45)
+sm.forward(150)
+sm.stamp()
+sm.forward(-150)
+sm.right(90)
+sm.forward(150)
+sm.stamp()
+sm.forward(-150)
+sm.right(90)
+sm.forward(150)
+sm.stamp()
+sm.forward(-150)
+sm.right(90)
+sm.forward(150)
+sm.stamp()
+sm.forward(-150)
+
+sah=turtle.Turtle()
+sah.speed(0)
+sah.color("black")
+
+dist=1
+gdist=2
+for i in range(50):
+    sah.up()
+    sah.forward(-dist)
+    sah.left(90)
+    sah.down()
+    sah.forward(dist)
+    sah.forward(-dist)
+    sah.right(90)
+    sah.forward(gdist)
+    sah.right(90)
+    sah.forward(dist)
+    sah.forward(-dist)
+    sah.right(90)
+    sah.forward(dist)
+    sah.left(90)
+    sah.forward(dist)
+    sah.right(90)
+    sah.forward(dist)
+    sah.forward(-dist)
+    sah.right(90)
+    sah.forward(gdist)
+    sah.right(90)
+    sah.forward(dist)
+    sah.forward(-dist)
+    sah.right(90)
+    sah.forward(dist)
+    dist=dist+1
+    gdist=dist*2
+
+sah.right(180)
+sah.forward(100)
+
+dist=1
+gdist=2
+for i in range(50):
+    sah.up()
+    sah.forward(-dist)
+    sah.left(90)
+    sah.down()
+    sah.forward(dist)
+    sah.forward(-dist)
+    sah.right(90)
+    sah.forward(gdist)
+    sah.right(90)
+    sah.forward(dist)
+    sah.forward(-dist)
+    sah.right(90)
+    sah.forward(dist)
+    sah.left(90)
+    sah.forward(dist)
+    sah.right(90)
+    sah.forward(dist)
+    sah.forward(-dist)
+    sah.right(90)
+    sah.forward(gdist)
+    sah.right(90)
+    sah.forward(dist)
+    sah.forward(-dist)
+    sah.right(90)
+    sah.forward(dist)
+    dist=dist+1
+    gdist=dist*2
+
+sah.right(180)
+sah.forward(100)
+
+dist=1
+gdist=2
+for i in range(50):
+    sah.up()
+    sah.forward(-dist)
+    sah.left(90)
+    sah.down()
+    sah.forward(dist)
+    sah.forward(-dist)
+    sah.right(90)
+    sah.forward(gdist)
+    sah.right(90)
+    sah.forward(dist)
+    sah.forward(-dist)
+    sah.right(90)
+    sah.forward(dist)
+    sah.left(90)
+    sah.forward(dist)
+    sah.right(90)
+    sah.forward(dist)
+    sah.forward(-dist)
+    sah.right(90)
+    sah.forward(gdist)
+    sah.right(90)
+    sah.forward(dist)
+    sah.forward(-dist)
+    sah.right(90)
+    sah.forward(dist)
+    dist=dist+1
+    gdist=dist*2
+
+
+sah.right(270)
+sah.forward(100)
+
+dist=1
+gdist=2
+for i in range(50):
+    sah.up()
+    sah.forward(-dist)
+    sah.left(90)
+    sah.down()
+    sah.forward(dist)
+    sah.forward(-dist)
+    sah.right(90)
+    sah.forward(gdist)
+    sah.right(90)
+    sah.forward(dist)
+    sah.forward(-dist)
+    sah.right(90)
+    sah.forward(dist)
+    sah.left(90)
+    sah.forward(dist)
+    sah.right(90)
+    sah.forward(dist)
+    sah.forward(-dist)
+    sah.right(90)
+    sah.forward(gdist)
+    sah.right(90)
+    sah.forward(dist)
+    sah.forward(-dist)
+    sah.right(90)
+    sah.forward(dist)
+    dist=dist+1
+    gdist=dist*2
+
+sah.right(180)
+sah.forward(100)
+
+dist=1
+gdist=2
+for i in range(50):
+    sah.up()
+    sah.forward(-dist)
+    sah.left(90)
+    sah.down()
+    sah.forward(dist)
+    sah.forward(-dist)
+    sah.right(90)
+    sah.forward(gdist)
+    sah.right(90)
+    sah.forward(dist)
+    sah.forward(-dist)
+    sah.right(90)
+    sah.forward(dist)
+    sah.left(90)
+    sah.forward(dist)
+    sah.right(90)
+    sah.forward(dist)
+    sah.forward(-dist)
+    sah.right(90)
+    sah.forward(gdist)
+    sah.right(90)
+    sah.forward(dist)
+    sah.forward(-dist)
+    sah.right(90)
+    sah.forward(dist)
+    dist=dist+1
+    gdist=dist*2
+
+sah.forward(200)
+sah.left(90)
+sah.forward(300)
+
+
+dist=1
+gdist=2
+for i in range(50):
+    sah.up()
+    sah.forward(-dist)
+    sah.left(90)
+    sah.down()
+    sah.forward(dist)
+    sah.forward(-dist)
+    sah.right(90)
+    sah.forward(gdist)
+    sah.right(90)
+    sah.forward(dist)
+    sah.forward(-dist)
+    sah.right(90)
+    sah.forward(dist)
+    sah.left(90)
+    sah.forward(dist)
+    sah.right(90)
+    sah.forward(dist)
+    sah.forward(-dist)
+    sah.right(90)
+    sah.forward(gdist)
+    sah.right(90)
+    sah.forward(dist)
+    sah.forward(-dist)
+    sah.right(90)
+    sah.forward(dist)
+    dist=dist+1
+    gdist=dist*2
+
+sah.forward(-100)
+
+dist=1
+gdist=2
+for i in range(50):
+    sah.up()
+    sah.forward(-dist)
+    sah.left(90)
+    sah.down()
+    sah.forward(dist)
+    sah.forward(-dist)
+    sah.right(90)
+    sah.forward(gdist)
+    sah.right(90)
+    sah.forward(dist)
+    sah.forward(-dist)
+    sah.right(90)
+    sah.forward(dist)
+    sah.left(90)
+    sah.forward(dist)
+    sah.right(90)
+    sah.forward(dist)
+    sah.forward(-dist)
+    sah.right(90)
+    sah.forward(gdist)
+    sah.right(90)
+    sah.forward(dist)
+    sah.forward(-dist)
+    sah.right(90)
+    sah.forward(dist)
+    dist=dist+1
+    gdist=dist*2
+
+sah.right(90)
+sah.forward(100)
+
+dist=1
+gdist=2
+for i in range(50):
+    sah.up()
+    sah.forward(-dist)
+    sah.left(90)
+    sah.down()
+    sah.forward(dist)
+    sah.forward(-dist)
+    sah.right(90)
+    sah.forward(gdist)
+    sah.right(90)
+    sah.forward(dist)
+    sah.forward(-dist)
+    sah.right(90)
+    sah.forward(dist)
+    sah.left(90)
+    sah.forward(dist)
+    sah.right(90)
+    sah.forward(dist)
+    sah.forward(-dist)
+    sah.right(90)
+    sah.forward(gdist)
+    sah.right(90)
+    sah.forward(dist)
+    sah.forward(-dist)
+    sah.right(90)
+    sah.forward(dist)
+    dist=dist+1
+    gdist=dist*2
+
+
+sah.forward(-100)
+
+dist=1
+gdist=2
+for i in range(50):
+    sah.up()
+    sah.forward(-dist)
+    sah.left(90)
+    sah.down()
+    sah.forward(dist)
+    sah.forward(-dist)
+    sah.right(90)
+    sah.forward(gdist)
+    sah.right(90)
+    sah.forward(dist)
+    sah.forward(-dist)
+    sah.right(90)
+    sah.forward(dist)
+    sah.left(90)
+    sah.forward(dist)
+    sah.right(90)
+    sah.forward(dist)
+    sah.forward(-dist)
+    sah.right(90)
+    sah.forward(gdist)
+    sah.right(90)
+    sah.forward(dist)
+    sah.forward(-dist)
+    sah.right(90)
+    sah.forward(dist)
+    dist=dist+1
+    gdist=dist*2
+
+sah.forward(-200)
+sah.right(90)
+sah.forward(200)
+sah.left(90)
+sah.forward(100)
+
+dist=1
+gdist=2
+for i in range(50):
+    sah.up()
+    sah.forward(-dist)
+    sah.left(90)
+    sah.down()
+    sah.forward(dist)
+    sah.forward(-dist)
+    sah.right(90)
+    sah.forward(gdist)
+    sah.right(90)
+    sah.forward(dist)
+    sah.forward(-dist)
+    sah.right(90)
+    sah.forward(dist)
+    sah.left(90)
+    sah.forward(dist)
+    sah.right(90)
+    sah.forward(dist)
+    sah.forward(-dist)
+    sah.right(90)
+    sah.forward(gdist)
+    sah.right(90)
+    sah.forward(dist)
+    sah.forward(-dist)
+    sah.right(90)
+    sah.forward(dist)
+    dist=dist+1
+    gdist=dist*2
+
+sah.forward(-100)
+
+dist=1
+gdist=2
+for i in range(50):
+    sah.up()
+    sah.forward(-dist)
+    sah.left(90)
+    sah.down()
+    sah.forward(dist)
+    sah.forward(-dist)
+    sah.right(90)
+    sah.forward(gdist)
+    sah.right(90)
+    sah.forward(dist)
+    sah.forward(-dist)
+    sah.right(90)
+    sah.forward(dist)
+    sah.left(90)
+    sah.forward(dist)
+    sah.right(90)
+    sah.forward(dist)
+    sah.forward(-dist)
+    sah.right(90)
+    sah.forward(gdist)
+    sah.right(90)
+    sah.forward(dist)
+    sah.forward(-dist)
+    sah.right(90)
+    sah.forward(dist)
+    dist=dist+1
+    gdist=dist*2
+
+sah.right(90)
+sah.forward(100)
+
+dist=1
+gdist=2
+for i in range(50):
+    sah.up()
+    sah.forward(-dist)
+    sah.left(90)
+    sah.down()
+    sah.forward(dist)
+    sah.forward(-dist)
+    sah.right(90)
+    sah.forward(gdist)
+    sah.right(90)
+    sah.forward(dist)
+    sah.forward(-dist)
+    sah.right(90)
+    sah.forward(dist)
+    sah.left(90)
+    sah.forward(dist)
+    sah.right(90)
+    sah.forward(dist)
+    sah.forward(-dist)
+    sah.right(90)
+    sah.forward(gdist)
+    sah.right(90)
+    sah.forward(dist)
+    sah.forward(-dist)
+    sah.right(90)
+    sah.forward(dist)
+    dist=dist+1
+    gdist=dist*2
+
+sah.forward(-100)
+
+dist=1
+gdist=2
+for i in range(50):
+    sah.up()
+    sah.forward(-dist)
+    sah.left(90)
+    sah.down()
+    sah.forward(dist)
+    sah.forward(-dist)
+    sah.right(90)
+    sah.forward(gdist)
+    sah.right(90)
+    sah.forward(dist)
+    sah.forward(-dist)
+    sah.right(90)
+    sah.forward(dist)
+    sah.left(90)
+    sah.forward(dist)
+    sah.right(90)
+    sah.forward(dist)
+    sah.forward(-dist)
+    sah.right(90)
+    sah.forward(gdist)
+    sah.right(90)
+    sah.forward(dist)
+    sah.forward(-dist)
+    sah.right(90)
+    sah.forward(dist)
+    dist=dist+1
+    gdist=dist*2
+
+
+sah.forward(-200)
+sah.right(90)
+sah.forward(300)
+
+dist=1
+gdist=2
+for i in range(50):
+    sah.up()
+    sah.forward(-dist)
+    sah.left(90)
+    sah.down()
+    sah.forward(dist)
+    sah.forward(-dist)
+    sah.right(90)
+    sah.forward(gdist)
+    sah.right(90)
+    sah.forward(dist)
+    sah.forward(-dist)
+    sah.right(90)
+    sah.forward(dist)
+    sah.left(90)
+    sah.forward(dist)
+    sah.right(90)
+    sah.forward(dist)
+    sah.forward(-dist)
+    sah.right(90)
+    sah.forward(gdist)
+    sah.right(90)
+    sah.forward(dist)
+    sah.forward(-dist)
+    sah.right(90)
+    sah.forward(dist)
+    dist=dist+1
+    gdist=dist*2
+
+sah.forward(-100)
+
+dist=1
+gdist=2
+for i in range(50):
+    sah.up()
+    sah.forward(-dist)
+    sah.left(90)
+    sah.down()
+    sah.forward(dist)
+    sah.forward(-dist)
+    sah.right(90)
+    sah.forward(gdist)
+    sah.right(90)
+    sah.forward(dist)
+    sah.forward(-dist)
+    sah.right(90)
+    sah.forward(dist)
+    sah.left(90)
+    sah.forward(dist)
+    sah.right(90)
+    sah.forward(dist)
+    sah.forward(-dist)
+    sah.right(90)
+    sah.forward(gdist)
+    sah.right(90)
+    sah.forward(dist)
+    sah.forward(-dist)
+    sah.right(90)
+    sah.forward(dist)
+    dist=dist+1
+    gdist=dist*2
+
+sah.right(90)
+sah.forward(100)
+
+
+
+
+dist=1
+gdist=2
+for i in range(50):
+    sah.up()
+    sah.forward(-dist)
+    sah.left(90)
+    sah.down()
+    sah.forward(dist)
+    sah.forward(-dist)
+    sah.right(90)
+    sah.forward(gdist)
+    sah.right(90)
+    sah.forward(dist)
+    sah.forward(-dist)
+    sah.right(90)
+    sah.forward(dist)
+    sah.left(90)
+    sah.forward(dist)
+    sah.right(90)
+    sah.forward(dist)
+    sah.forward(-dist)
+    sah.right(90)
+    sah.forward(gdist)
+    sah.right(90)
+    sah.forward(dist)
+    sah.forward(-dist)
+    sah.right(90)
+    sah.forward(dist)
+    dist=dist+1
+    gdist=dist*2
+
+
+
+sah.forward(-100)
+
+dist=1
+gdist=2
+for i in range(50):
+    sah.up()
+    sah.forward(-dist)
+    sah.left(90)
+    sah.down()
+    sah.forward(dist)
+    sah.forward(-dist)
+    sah.right(90)
+    sah.forward(gdist)
+    sah.right(90)
+    sah.forward(dist)
+    sah.forward(-dist)
+    sah.right(90)
+    sah.forward(dist)
+    sah.left(90)
+    sah.forward(dist)
+    sah.right(90)
+    sah.forward(dist)
+    sah.forward(-dist)
+    sah.right(90)
+    sah.forward(gdist)
+    sah.right(90)
+    sah.forward(dist)
+    sah.forward(-dist)
+    sah.right(90)
+    sah.forward(dist)
+    dist=dist+1
+    gdist=dist*2
+
+wn.exitonclick() 
